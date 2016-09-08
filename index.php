@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Qingyu's Website</title>
+<title>Qingyu Presents</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -34,7 +34,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("img_parallax1.jpg");
+    background-image: url("img2.jpg");
     min-height: 400px;
 }
 
@@ -83,72 +83,104 @@ body, html {
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love programming</em></p>
-  <p>
-    Hello, I am Qingyu Wang, a computer science major student at UC Berkeley. I will be graduating at the end of year 2016. I came from a city named Suzhou in China, it is a city near Shanghai and its the third year I am here in the United States for college. I love programming and designing in general and I am willing to devote all the rest of my life to software engineering.
+<!--   <p class="w3-center"><em>I love programming</em></p>
+ -->  <p>
+    Hello, I am Qingyu Wang, a computer science major student at UC Berkeley. I will be graduating at the end of year 2016. It is my last semaster here at UC Berkeley and I enjoy studying and living here. I like to do some Android app development and Web application when I have time. Also, I would use CAD to build some cool 3D printable projects. There are some of my works down below. I hope you would like them.
 
   </p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-section">
-      <p><b>Qingyu Wang</b></p><br>
-      <img src="https://unsplash.it/235/235?image=91" class="w3-circle" alt="Photo of Me">
-    </div>
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-section">
-      <p>Welcome to my website. I cant wait to share some of my latest works with you! At here you will see some of my experiences and some of my projects including andoroid apps, web projects and some other 3d designing projects. </p>
-    </div>
   </div>
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-light-grey w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-light-grey w3-wide">APPLICATIONS</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <h3 class="w3-center">SUN SAFE</h3>
+  <p class="w3-left">Sun Safe! is a fun and simple application for parents and their children. Many children often forget to reapply after their sunscreen has
+worn off, which is detrimental to their skin. Sun
+Safe! will guide both the parent and child to
+better protect their skin.</p>
+<p>The app is customized for users based on
+allergies and skin conditions. Afterwards, the
+parent (with the phone) is able to set a timer to
+notify them and their child (with the watch)
+when to reapply sunscreen. The app also
+provides features such as viewing detailed
+weather and health information, such as
+temperature, UV index, and common skin
+diseases. <br>  </p>
+  <p class="w3-center"><em>Scratches of the App</em></p>
 
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="img_p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <div class="w3-col m6">
+      <img src="sunsafe/p1.png" style="width:100%; margin-top:15px; margin-bottom:15px;">
     </div>
 
-    <div class="w3-col m3">
-      <img src="img_p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <div class="w3-col m6">
+      <img src="sunsafe/p2.png" style="width:100%; margin-top:15px; margin-bottom:15px;">
     </div>
 
-    <div class="w3-col m3">
-      <img src="img_p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+
+  <p class="w3-center"><em>User Interface of the Mobile and Wearble App</em></p>
+
+
+    <div class="w3-col m6">
+      <img src="sunsafe/p4.png" style="width:100%; margin-top:15px; margin-bottom:15px;">
     </div>
 
-    <div class="w3-col m3">
-      <img src="img_p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+
+    <div class="w3-col m6">
+      <img src="sunsafe/p5.png" style="width:100%; margin-top:15px; margin-bottom:15px;">
     </div>
+
+
+
+    <div class="w3-col m6">
+      <img src="sunsafe/p6.png" style="width:100%; margin-top:15px; margin-bottom:15px;">
+    </div>
+
+
+    <div class="w3-col m6">
+      <img src="sunsafe/p7.png" style="width:100%; margin-top:15px; margin-bottom:15px;">
+    </div>
+
+
   </div>
 
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="img_p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
+    <div class = "w3-center">
+<iframe class="w3-center" width="840" height="472.5" class="youtube" src="https://www.youtube.com/embed/nqj1Vs7L84k" frameborder="0" allowfullscreen></iframe>
+</div>
 
-    <div class="w3-col m3">
-      <img src="img_p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">DOTA2 ASSISTANT</h3>
+  <p class="w3-center"><em>Updating...</em></p>
+</div>
 
-    <div class="w3-col m3">
-      <img src="img_p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
 
-    <div class="w3-col m3">
-      <img src="img_p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    </div>
+
+
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide">3D MODELING AND ANIMATION</span>
   </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">FOLDS</h3>
+  <p class="w3-center"><em>Folds is a short animation about a girl who falls asleep and finds that her origami has taken a turn for the fantastic.
+
+ </em></p>
+
+    <div class = "w3-center">
+<iframe class="w3-center" width="840" height="472.5" class="youtube" src="https://www.youtube.com/embed/J92yjpiSMFk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
 </div>
 
 <!-- Modal for full size images on click-->
@@ -159,47 +191,16 @@ body, html {
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-light-grey w3-wide">CONTACT</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large"></div>
-    </div>
-    <div class="w3-col m8 w3-container w3-section">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: mail@mail.com<br>
-      </div>
-      <p>Swing by for a cup of coffee, or leave me a note:</p>
-      <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-        <div class="w3-half">
-          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name">
-        </div>
-        <div class="w3-half">
-          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Email">
-        </div>
-      </div>
-      <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
-      <button class="w3-btn w3-section w3-right">SEND</button>
-    </div>
-  </div>
-</div>
 
 <!-- Footer -->
-<footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black">
-  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p>
+<footer class="w3-center w3-black w3-padding-48 w3-hover-black">
+
+<div class="w3-content w3-container w3-padding-64">
+
+  <p class = "w3-center">Contact Info:</p>
+  <p class="w3-center" ><em>qywang@berkeley.edu</em></p>
+  <p class="w3-center" >(510)-693-7629</p>
+</div>
 </footer>
  
 <!-- Add Google Maps -->
