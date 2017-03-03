@@ -1,0 +1,18 @@
+match 2620639797
+Key: E4E2F6CCA37356210C162C1CC98DCF2F
+http://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/v1?key=E4E2F6CCA37356210C162C1CC98DCF2F&match_id=2620639797
+
+http://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/v1?key=E4E2F6CCA37356210C162C1CC98DCF2F&account_id=364848976
+
+user id:364848976
+xiaohao id:149267137
+steam id:76561197960287930
+
+http://api.steampowered.com/IEconDOTA2_570/GetHeroes/v1?key=E4E2F6CCA37356210C162C1CC98DCF2F
+
+http://api.steampowered.com/IEconDOTA2_570/GetGameItems/v1?key=E4E2F6CCA37356210C162C1CC98DCF2F
+
+
+http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=E4E2F6CCA37356210C162C1CC98DCF2F&steamids=364848976
+
+4294967295
